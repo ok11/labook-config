@@ -8,7 +8,6 @@ labook_lending_info_exchange: labook.lending-info-exchange
 labook_inventory_info_exchange: labook.inventory-info-exchange
 labook_bill_info_exchange: labook.bill-info-exchange
 labook_logistics_info_exchange: labook.logistics-info-exchange
-labook_inventory_info_exchange: labook.inventory-info-exchange
 
 labook_lending_volume_lent_topic: labook.lending.volume-lent
 labook_lending_volume_returned_topic: labook.lending.volume-returned
