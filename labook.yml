@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://labook-discovery.cfapps.sap.hana.ondemand.com:443/eureka
+
+labook_user_info_exchange: labook.user-info-exchange
+labook_lending_info_exchange: labook.lending-info-exchange
+labook_inventory_info_exchange: labook.inventory-info-exchange
+labook_bill_info_exchange: labook.bill-info-exchange
+labook_logistics_info_exchange: labook.logistics-info-exchange
+labook_inventory_info_exchange: labook.inventory-info-exchange
+
+labook_lending_volume_lent_topic: labook.lending.volume-lent
+labook_lending_volume_returned_topic: labook.lending.volume-returned
+labook_inventory_volume_registered_topic: labook.inventory.volume-registered
+labook_inventory_volume_returned_topic: labook.inventory.volume-returned
+labook_inventory_volume_sent_topic: labook.inventory.volume-sent
+labook_inventory_volume_deleted_topic: labook.inventory.volume-deleted
+labook_billing_bill_finalized_topic: labook.billing.bill-finalized
+labook_billing_bill_paid_topic: labook.billing.bill-paid
