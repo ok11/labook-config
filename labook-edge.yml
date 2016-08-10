@@ -1,0 +1,14 @@
+zuul:
+  ignored-services: "*"
+  routes:
+    store-service:
+      path: /store-service/**
+      serviceId: labook-store
+    lending-service:
+      path: /lending-service/**
+      serviceId: labook-lending
+    user-service:
+      path: /user-service/**
+      serviceId: labook_user
+
+
