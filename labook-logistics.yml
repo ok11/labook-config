@@ -1,0 +1,11 @@
+labook:
+  warehouse:
+    address:
+      name: LaBook
+      street: Dietmar-Hopp-Allee
+      houseNr: 16
+      city: Walldorf
+      zipCode: 69190
+      country: Germany
+
+
