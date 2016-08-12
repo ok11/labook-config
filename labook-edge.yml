@@ -9,6 +9,10 @@ zuul:
       serviceId: labook-lending
     user-service:
       path: /user-service/**
-      serviceId: labook_user
+      serviceId: labook-user
+labook:
+  unauthenticated:
+    path: /user-service/users
+    method: POST
 
 
