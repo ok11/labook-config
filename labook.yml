@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://labook-discovery.cfapps.sapaws.hana.ondemand.com:443/eureka
+      defaultZone: https://labook-discovery.cfapps.sapaws.hana.ondemand.com/eureka
 
 labook_user_info_exchange: labook.user-info-exchange
 labook_lending_info_exchange: labook.lending-info-exchange

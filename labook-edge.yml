@@ -13,5 +13,5 @@ zuul:
 labook:
   edge:
     authentication-provider:
-      url: ${labook-user}/authenticate
+      url: https://labook-user/authenticate
 
