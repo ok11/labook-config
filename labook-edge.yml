@@ -12,11 +12,6 @@ zuul:
       serviceId: labook-user
 labook:
   edge:
-    unauthenticated:
-      - path: /user-service/users
-        methods: POST
-      - path: /store-service/catalog/**
-        methods: *
     authentication-provider:
       url: ${labook-user}/authenticate
 
