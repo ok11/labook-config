@@ -1,18 +1,21 @@
 zuul:
   ignored-services: "*"
   routes:
-    store-service:
-      path: /catalog-service/**
-      url: https://labook-store/catalog
-    lending-service:
-      path: /lending-service/**
-      url: https://labook-lending/lending
-    user-service:
-      path: /user-service/**
-      url: https://labook-user
-    billing-service:
-      path: /billing-service/**
-      url: https://labook-lending/billing
+    catalog:
+      path: /catalog/**
+      service-id: labook-store
+      strip-prefix: false
+    lending:
+      path: /lending/**
+      service-id: labook-lending
+      strip-prefix: false
+    user-management:
+      path: /user-management/**
+      service-id: labook-user
+    billing:
+      path: /billing/**
+      service-id: labook-lending
+      strip-prefix: false
 labook:
   edge:
     authentication-provider:
