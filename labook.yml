@@ -17,3 +17,5 @@ labook_inventory_volume_sent_topic: labook.inventory.volume-sent
 labook_inventory_volume_deleted_topic: labook.inventory.volume-deleted
 labook_billing_bill_finalized_topic: labook.billing.bill-finalized
 labook_billing_bill_paid_topic: labook.billing.bill-paid
+
+test: test

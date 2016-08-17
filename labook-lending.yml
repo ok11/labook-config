@@ -1,0 +1,9 @@
+labook:
+  pricing:
+    amount: 2.0
+    currency: EUR
+  billing:
+    currency: EUR
+  inventory:
+    service: https://labook-store/inventory
+
