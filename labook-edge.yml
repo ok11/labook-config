@@ -10,7 +10,7 @@ zuul:
     user-service:
       path: /user-service/**
       url: https://labook-user
-    user-service:
+    billing-service:
       path: /billing-service/**
       url: https://labook-lending/billing
 labook:
