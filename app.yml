@@ -1,0 +1,10 @@
+---
+spring:
+  profiles: foo
+application:
+  property: app-foo
+---
+spring:
+  profiles: bar
+application:
+  property: app-bar
