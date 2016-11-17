@@ -16,6 +16,13 @@ labook:
         client-scopes:
           - scope: internal
       -
+        client-id: labook-lending
+        client-secret: secret
+        client-grant-types:
+          - grant-type: client_credentials
+        client-scopes:
+          - scope: internal
+      -
         client-id: labook-logistics
         client-secret: secret
         client-grant-types:
