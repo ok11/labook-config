@@ -9,6 +9,13 @@ labook:
         client-scopes:
           - scope: internal
       -
+        client-id: labook-store
+        client-secret: secret
+        client-grant-types:
+          - grant-type: client_credentials
+        client-scopes:
+          - scope: internal
+      -
         client-id: labook-payment-proxy
         client-secret: secret
         client-grant-types:
