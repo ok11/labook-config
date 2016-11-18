@@ -16,8 +16,4 @@ zuul:
       path: /billing/**
       service-id: labook-lending
       strip-prefix: false
-labook:
-  edge:
-    authentication-provider:
-      url: https://labook-user/authenticate
 
