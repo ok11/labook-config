@@ -1,50 +1,43 @@
 labook:
   user:
     client-configs:
-      -
-        client-id: labook-account
+      - client-id: labook-account
         client-secret: secret
         client-grant-types:
           - grant-type: client_credentials
         client-scopes:
           - scope: internal
-      -
-        client-id: labook-store
+      - client-id: labook-store
         client-secret: secret
         client-grant-types:
           - grant-type: client_credentials
         client-scopes:
           - scope: internal
-      -
-        client-id: labook-lending
+      - client-id: labook-lending
         client-secret: secret
         client-grant-types:
           - grant-type: client_credentials
         client-scopes:
           - scope: internal
-      -
-        client-id: labook-logistics
+      - client-id: labook-logistics
         client-secret: secret
         client-grant-types:
           - grant-type: client_credentials
         client-scopes:
           - scope: internal
-      -
-        client-id: labook-payment-proxy
+      - client-id: labook-payment-proxy
         client-secret: secret
         client-grant-types:
           - grant-type: client_credentials
         client-scopes:
           - scope: internal
-      -
-        client-id: labook-shipment-proxy
+      - client-id: labook-shipment-proxy
         client-secret: secret
         client-grant-types:
           - grant-type: client_credentials
         client-scopes:
           - scope: internal
-      -
-        client-id: labook-edge
+      - client-id: labook-edge
         client-secret: secret
         client-grant-types:
           - grant-type: client_credentials
