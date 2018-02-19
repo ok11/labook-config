@@ -51,3 +51,11 @@ labook:
           - grant-type: password
         client-scopes:
           - scope: external
+      - 
+        client-id: labook-user
+        client-secret: secret
+        client-grant-types:
+          - grant-type: client_credentials
+          - grant-type: password
+        client-scopes:
+          - scope: internal
